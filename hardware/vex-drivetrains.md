@@ -1,14 +1,10 @@
 ---
 description: >-
-  Vex drivetrains are assemblies, generally made of wheels, used to traverse the
-  VRC field. Each drivetrain has its own set of advantages and disadvantages.
+  Drivetrains are the most common method of movement in VEX robots. This article goes through different methods of drivetrains.
 ---
 
-# Types of Motion
-
-When designing a drivetrain, there are multiple forms of drive train that can be considered.
-The first is a static drivetrain. These are the most common and easiest to build, program, and maintain.
-The second is a holonomic drivetrain. This category is defined as having the ability to move in a direction that is not directly front or back of a robot. Holonomic Drivetrains take many forms, and each has its own use cases.
+# Introduction
+Arguably the most important about of a sucessful robot is the ability to move. This can be done in many different ways, most commonly with wheels. There are two main types of wheeled drivetrains. Static Drivetrains, which are only able to move forward, reverse, and turn; and Holonomic Drivetrains, which are able to move about the field in a direction not oriented with the "front" of a robot. 
 
 ## Static Drivetrains
 

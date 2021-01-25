@@ -4,40 +4,22 @@ description: >-
   VRC field. Each drivetrain has its own set of advantages and disadvantages.
 ---
 
-# VEX Drivetrains
+# Types of Motion
 
-This video highlights several drivetrains commonly used in Vex:
+When designing a drivetrain, there are multiple forms of drive train that can be considered.
+The first is a static drivetrain. These are the most common and easiest to build, program, and maintain.
+The second is a holonomic drivetrain. This category is defined as having the ability to move in a direction that is not directly front or back of a robot. Holonomic Drivetrains take many forms, and each has its own use cases.
 
-[![VEX Drivetrains](http://img.youtube.com/vi/VfuA2EqaIso/0.jpg)](https://www.youtube.com/watch?v=VfuA2EqaIso)
+## Static Drivetrains
 
-In addition, [this article by Vex](https://kb.vex.com/hc/en-us/articles/360035952771-How-to-Select-a-Drivetrain) goes into great detail about the nuances of each drive as well as how to select one.
-
-These are the four most common types of Vex Drivetrains:
-
-* Tank Drive
-* Mecanum Drive
-* X-Drive
-* H-Drive
-
-The drivetrain you choose will depend on the tasks you want your robot to accomplish.
-
-## Tank Drive
+A Static Drivetrain only has one implimentation, most commonly known as a "Tank Drive", pictured here.
 
 ![Tank Drive](https://user-images.githubusercontent.com/65926085/83547350-b0360980-a4c7-11ea-8a5b-f30013d2cb0f.png)
+The main characteristics of a tank drive are the wheels set up in a box, with all being parallel.
 
-This is by far the most common and simplest drivetrain in Vex. It generally uses 4-6 omni or traction wheels, half on each side, allowing for forward and backward movement, as well as turning.
+**Use Cases**: The Tank Drive is incredibly common in all disciplines of robotics, it is relatively simple and incredibly easy to maintain. If you are a beginner, it is highly recommended that you get familiar with this type of drive. 
 
-**Advantages and Disadvantages:** The Tank Drive is very simple to build and consistently performs well. Many former world champions have used the Tank Drive for its simplicity. However, it suffers both from being able to be pushed sideways and from an inability to strafe.
-
-One solution to the problem of being pushed from the side utilizes **locked omni wheels** and is sometimes referred to as the "Bling Drive":
-
-The reasoning behind and process of making locked omni wheels is explained in [this video by the Rolling Robots](https://www.youtube.com/watch?v=cKM5kPYdWVU). Twenty-four 0.5" screws can be used to make one locked omni wheel. The locked omni wheels should be placed in the center of the robot \(more or less in line with the robot's center of gravity\) to optimize turning. In addition, only two locked omnis should be used per robot, as more will create difficulty turning and possibly damage the wheels.
-
-![240P&apos;s Bling Drive](https://user-images.githubusercontent.com/65926085/83548634-add4af00-a4c9-11ea-9cc3-8978cab7d53a.png) ![8059A&apos;s Locked Omni Drive](https://user-images.githubusercontent.com/65926085/83548438-60f0d880-a4c9-11ea-8bf0-a045e34b387f.png)
-
-This type of drive was utilized by [240P's Early Season Turning Point Robot](https://www.youtube.com/watch?v=06cEBmGx7Fo) and by [8059's Turning Point Robot\(s\)](https://www.youtube.com/watch?v=NX6mLf8iO34). The locked omni drive was common in Vex Turning Point because of the defensive nature of the game.
-
-An alternative to locked omni wheels which is becoming more prevalent is wrapping a Vex traction tire around a 30-tooth sprocket as shown in [7700R's Tower Takeover Robot Explanation](https://youtu.be/1mLc1jOCxck?t=324). This diameter of this assembly is very close to the diameter of a 4" Vex omni wheel, making it a viable alterative for those who don't wish to lock their omni wheels.
+**Disadvantages**: The primary disadvantage to the Tank Drive is the mobility outside of going forward and backward.
 
 ## Mecanum Drive
 
